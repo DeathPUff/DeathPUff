@@ -1,0 +1,549 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    height: 100%;
+    background-color: #f5f5f5;
+}
+.subject{
+    display: block;
+}
+.subject .dapplet:nth-of-type(1){
+    width: 100%;
+    height: 100px;
+    background-color: #0e0e0f;
+    position: relative;
+}
+.subject .dapplet img:nth-of-type(1){
+     position: absolute;
+     left: 15%;
+     transform: translateX(-15%);
+     bottom: 4px;
+}
+.subject .dapplet div:nth-of-type(1){
+    position: absolute;
+    left: 50%;
+    transform: translateX(75px);
+    top: 33px;
+    width: 240px;
+    height: 40px;
+    background-color: #242424;
+    border-radius: 50px;
+    line-height: 40px;
+    text-align: center;
+}
+.subject .dapplet div:nth-of-type(1) input{
+    background-color: #242424;
+    box-shadow: none;
+    border: none;
+    font-size: 14px;
+    color: #aaaaaa;
+    outline: none;
+    margin-left: 10px;
+}
+.subject .dapplet div:nth-of-type(1) a{
+position: absolute;
+width: 19px;
+height: 19px;
+background-image: url(../img/ico-comm.png);
+background-position: -19px -317px;
+right: 205px;
+top: 12px;
+background-size: 200px;
+}
+.subject .dapplet div:nth-of-type(2){
+position: absolute;
+left: 50%;
+transform: translateX(370px);
+top: 34px;
+width: 135px;
+height: 40px;
+text-align: center;
+line-height: 40px;
+}
+.subject .dapplet div:nth-of-type(2) i{
+position: absolute;
+width: 22px;
+height: 24px;
+background-image:url(../img/ico-comm.png);
+background-position: -0 24px;
+background-size: 375px;
+left: 5px;
+top:8px;
+}
+.subject .dapplet div:nth-of-type(2) a{
+color: #f6f7ef;
+text-decoration: none;
+font-size: 14px;
+margin-right: 7px;
+}
+.subject .dapplet div:nth-of-type(3){
+position: absolute;
+left: 50%;
+transform: translateX(515px);
+top: 34px;
+width: 135px;
+height: 40px;
+text-align: center;
+line-height: 40px;
+}
+.subject .dapplet div:nth-of-type(3) i{
+position: absolute;
+width: 30px;
+height: 24px;
+background-image:url(../img/ico-comm.png);
+background-position: -0 -74px;
+background-size: 375px;
+left: 5px;
+top:8px;
+}
+.subject .dapplet div:nth-of-type(3) a{
+color: #f6f7ef;
+text-decoration: none;
+font-size: 14px;
+margin-right: 10px;
+}
+.subject .dapplet div:nth-of-type(3) a span{
+position: absolute;
+color: #ffc923;
+right: 42px;
+}
+.sponsor{
+    position: relative;
+    display: inline-flex;
+    width:100% ;
+    height: 500px;
+    top: 100%;
+    transform: translateY(48px);
+    background-color: #242424;
+    justify-content: center;
+  }
+  .sponsor .up{
+    position: absolute;
+    display: inline-flex;
+    justify-content: center;
+    width: 1280px;
+    height: 228px;
+    border-bottom: 1px solid #a6a6a6;
+    align-items: center;
+  }
+  .sponsor .up li{
+    list-style: none;
+  }
+  .sponsor .up div:nth-of-type(1){
+    width: 285px;
+    height: 228px;
+    text-align: center;
+  }
+  .sponsor .up div:nth-of-type(1) a{
+    height: 228px;
+    line-height: 175px;
+  }
+  .sponsor .up div:nth-of-type(2){
+    width: 398px;
+    height: 144px;
+    border-right: 1px solid #a6a6a6 ;
+    border-left: 1px solid #a6a6a6 ;
+  }
+  .sponsor .up div:nth-of-type(2) ul li a span{
+    display: block;
+    width: 105px;
+    line-height: 25px;
+  }
+  .sponsor .up div:nth-of-type(2) ul li a span:hover{
+    color: white;
+  }
+  .sponsor .up div:nth-of-type(2) ul li a{
+    text-decoration: none;
+    color: #a8a8a8;
+    font-size: 14px;
+    position: absolute;
+  }
+  .sponsor .up div:nth-of-type(2) ul li{
+    width: 100px;
+    height: 50px;
+  }
+  .sponsor .up div:nth-of-type(2) ul:nth-of-type(1) li:nth-of-type(1) a i{
+    width: 30px;
+    height: 26px;
+    position: absolute;
+    background-image: url(../img/comm-top.png);
+    background-position: 1px -63px;
+    left: -15px;
+  }
+  .sponsor .up div:nth-of-type(2) ul:nth-of-type(1) li:nth-of-type(2) a i{
+    width: 30px;
+    height: 26px;
+    position: absolute;
+    background-image: url(../img/comm-top.png);
+    background-position: -29px -63px;
+    left: -15px;
+  }
+  .sponsor .up div:nth-of-type(2) ul:nth-of-type(1) li:nth-of-type(3) a i{
+    width: 30px;
+    height: 26px;
+    position: absolute;
+    background-image: url(../img/comm-top.png);
+    background-position: -120px -63px;
+    left: -15px;
+  }
+  .sponsor .up div:nth-of-type(2) ul:nth-of-type(2) li:nth-of-type(1) a i{
+    width: 30px;
+    height: 26px;
+    position: absolute;
+    background-image: url(../img/comm-top.png);
+    background-position: -90px -63px;
+    left: -15px;
+  }
+  .sponsor .up div:nth-of-type(2) ul:nth-of-type(2) li:nth-of-type(2) a i{
+    width: 30px;
+    height: 26px;
+    position: absolute;
+    background-image: url(../img/comm-top.png);
+    background-position: -60px -63px;
+    left: -15px;
+  }
+  .sponsor .up div:nth-of-type(2) ul{
+    display: inline-block;
+    text-align: center;
+  }
+  .sponsor .up div:nth-of-type(2) ul:nth-of-type(2){
+    position: absolute;
+    left: 500px;
+  }
+  .sponsor .up div:nth-of-type(3){
+    width: 599px;
+    height: 228px;
+  }
+  .sponsor .up div:nth-of-type(3) ul{
+    display: block;
+    text-align: center;
+  }
+  .sponsor .up div:nth-of-type(3) ul li{
+    display: inline-flex;
+    justify-content: center;
+    line-height: 360px;
+  }
+  .sponsor .up div:nth-of-type(3) li img{
+    margin: 50px 40px;
+    width: 100px;
+    height: 100px;
+  }
+  .sponsor .up div:nth-of-type(3) li p{
+    width: 120px;
+    height: 100px;
+    position: absolute;
+    color: white;
+    font-size: 16px;
+  }
+  .sponsor .state{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 50%;
+    color: #a6a6a6;
+    font-size: 12px;
+  }
+  .sponsor .state a{
+    color: #a6a6a6;
+    text-decoration: none;
+    font-size:12px;
+  }
+  .sponsor .state a:hover{
+      color: white;
+  }
+  .sponsor .yardage{
+    color: #a6a6a6;
+    font-size: 12px;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    top: 55%;
+  }
+  .sponsor .yardage+p{
+    color: #a6a6a6;
+    font-size: 12px;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    top: 60%;
+  }
+  .sponsor .yardage+p:hover{
+    color:white;
+  }
+  .sponsor .yardage+p+p{
+    color: #a6a6a6;
+    font-size: 12px;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    top: 71%;
+  }
+  .sponsor .yardage+p+p:hover{
+      color: white;
+  }
+  .sponsor .yardage+p+p img{
+    width: 15px;
+    height: 15px;
+    transform: translateY(2.5px);
+  }
+  subject .dapplet2{
+    display:block;
+    position: relative;
+    height: 55px;
+    width: 100%;
+    background-color: #0e0e0e;
+    border-top: 1px solid #222222;
+}
+.subject .dapplet2 div:nth-of-type(1){
+    position: absolute;
+    left: 260px;
+    font-size: 0;
+}
+.subject .dapplet2 div:nth-of-type(1) a{
+    display: inline-flex;
+    width:  120px;
+    height: 51px;
+    justify-content: center;
+    line-height: 55px;
+    color: #a6a6a6;
+    text-decoration: none;
+    font-size: 16px;
+}
+.subject .dapplet2 div:nth-of-type(1) a:hover{
+    color: white;
+    border-bottom: 5px solid #f6bc17;
+}
+.subject .dapplet2 div:nth-of-type(2){
+    position: absolute;
+    left: 50%;
+    width: 125px;
+    transform: translateX(445px);
+    color: #f6f7ef;
+    height: 53px;
+    line-height: 55px;
+    cursor: pointer;
+}
+.subject .dapplet2 div:nth-of-type(2) i{
+    position: absolute;
+    width: 16px;
+    height: 19px;
+    background-image: url(../img/ico-comm.png);
+    background-position: -97px 0px;
+    margin-left: 7px;
+    top: 20px;
+}
+.subject .dapplet2 div:nth-of-type(2):hover>i{
+    background-position: -62px 0;
+}
+.subject .dapplet2 div:nth-of-type(3){
+    position: absolute;
+    width: 100%;
+    height: 415px;
+    top: 55px;
+    text-align: center;
+    display: none;
+}
+.subject .dapplet2 div:nth-of-type(2):hover+ .popup{
+    display: block;
+    z-index: 999;
+    background-color: white;
+}
+.subject .dapplet2 div:nth-of-type(3) .goods{
+    display: inline-flex;
+}
+.subject .dapplet2 div:nth-of-type(3) .goods li{
+    margin: 0px 10px;
+    width: 110px;
+    height: 100px;
+    list-style-type: none;
+}
+.subject .dapplet2 div:nth-of-type(3) .goods li img{
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+.subject .dapplet2 div:nth-of-type(3) .goods li span{
+    display: block;
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+    height: 33px;
+    border-bottom: 5px solid #e3e3e3;
+    cursor: pointer;
+}
+.subject .dapplet2 div:nth-of-type(3) .goods li a{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color:#333333;
+    font-size: 14px;
+    margin-top:20px;
+}
+.subject .dapplet2 div:nth-of-type(3) .goods li a:hover{
+    text-decoration: underline;
+}
+.subject .dapplet4{
+    position: relative;
+    display: flex;
+    width: 1280px;
+    height: 2680px;
+    background-color: #ffffff;
+    margin: 0 auto;
+    bottom: 34px;
+    border-radius: 10px;
+  }
+  .subject .dapplet4 li{
+    list-style: none;
+  }
+  .subject .dapplet4 div:nth-of-type(1){
+    width: 1200px;
+    height: 65px;
+    line-height: 70px;
+  }
+  .subject .dapplet4 .general{
+    float: left;
+    display: flex;
+  }
+  .subject .dapplet4 .general h3{
+    font-size: 28px;
+  }
+  .subject .dapplet4 .general span{
+    position: absolute;
+    font-size: 15px;
+    line-height: 77px;
+    margin-left: 20px;
+  }
+  .subject .dapplet4 .general2{
+    float: right;
+    display: flex;
+  }
+  .subject .dapplet4 .general2 li{
+    display: inline-block;
+    width: 54px;
+  }
+  .subject .dapplet4 .general2 a{
+    text-decoration: none;
+    color: black;
+  }
+  .subject .dapplet4 .general2 i{
+    position: absolute;
+    margin-top: 23px;
+    margin-left: 5px;
+    width: 20px;
+    height: 24px;
+    background-image: url(../img/ico-comm.png);
+    background-position: -42px 0px;
+  }
+  .subject .dapplet3{
+    position: relative;
+    width: 100%;
+    height: 530px;
+    overflow: hidden;
+  }
+  .subject .dapplet3 ul:nth-of-type(1){
+    position: relative;
+    width: 100%;
+    height: 530px;
+  }
+  .subject .dapplet3 ul:nth-of-type(1) img{
+    width: 100%;
+  }
+  .subject .dapplet3 ul:nth-of-type(2){
+    position: absolute;
+    width: 500px;
+    height: 20px;
+    display: inline-flex;
+    justify-content: center;
+    transform: translateX(-50%);
+    left: 50%;
+    top: 50%;
+    z-index: 50;
+    margin-top: 210PX;
+  }
+  .subject .dapplet3 ul:nth-of-type(2) li{
+    list-style: none;
+    width: 40px;
+    height: 5px;
+    margin:0 5px;
+    cursor: pointer;
+    background-color: rgb(0, 0, 0,0.5);
+  }
+  .subject .dapplet3 ul:nth-of-type(2) li:hover{
+    background-color: #efa521;
+  }
+  .subject .dapplet4 .hero{
+    margin: 0 auto;
+}
+.subject .dapplet4 .hero .game{
+    display: inline-flex;
+    margin-top: 10px;
+    width: 1200px;
+    height: 400px;
+}
+.subject .dapplet4 .hero .game div{
+width: 280px;
+height: 376px;
+margin: 0 auto;
+cursor: pointer;
+transition: transform 0.5s;
+}
+.subject .dapplet4 .hero .game div:hover{
+transform: translateY(-6px);
+box-shadow: 0px 10px 15px gray;
+}
+.subject .dapplet4 .hero .streamer{
+display: inline-flex;
+width: 1200px;
+height: 239px;
+background-image: url(../img/提莫.jpg);
+cursor:pointer;
+}
+.subject .dapplet4 .hero .small{
+display: inline-flex;
+width: 1200px;
+height: 385px;
+margin: 0 auto;
+}
+.subject .dapplet4 .hero .small div{
+width: 280px;
+height: 350px;
+cursor: pointer;
+margin-left: 20px;
+transform: translateX(-20px);
+border: 1px solid #eee;
+background-color: #f5f5f5;
+transition: transform 0.5s;
+}
+.subject .dapplet4 .hero .small div:hover{
+transform: translateX(-14px);
+box-shadow: 0px 10px 15px gray;
+}
+.subject .dapplet4 .hero .small img{
+width: 279px;
+}
+.subject .dapplet4 .hero .small p{
+width: 279px;
+height: 25px;
+text-align: center;
+line-height: 1px;
+font-size: 13px;
+}
+.subject .dapplet4 .hero .small p:nth-of-type(2){
+color: #f7545f;
+}
+.subject .dapplet4 .hero .cfq{
+display: inline-flex;
+width: 1200px;
+height: 239px;
+background-image: url(../img/cfq.jpg);
+cursor:pointer;
+}
+.subject .dapplet4 .hero .TV{
+display: inline-flex;
+width: 1200px;
+height: 239px;
+background-image: url(../img/TV.jpg);
+cursor:pointer;
+}
